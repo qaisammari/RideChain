@@ -3,7 +3,7 @@ RideChain is a ride order application whereby you can order your rides using Blo
 
 # Smart Contract Properties
 
-uint256 escrowBalance: the balance that will be on hold till the ride is completed and approved by the rider and driver
+uint256 escrowBalance: the balance that will be on hold till the ride is completed and approved by the rider and driver\n
 address public rider: the address of the rider in this ride
 address public driver: the address of the driver who is taking this ride
 address private escrow: address of the escrow contract
