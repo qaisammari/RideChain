@@ -5,57 +5,57 @@ RideChain is a ride order application whereby you can order your rides using Blo
 
 1. the balance that will be on hold till the ride is completed and approved by the rider and driver
 
-    uint256 escrowBalance
+        uint256 escrowBalance
 
 2. the address of the rider in this ride
 
-    address public rider
+        address public rider
 
 3. the address of the driver who is taking this ride
 
-    address public driver
+        address public driver
 
 4. address of the escrow contract
 
-    address private escrow
+        address private escrow
 
 5. boolean indicating that the rider confirmed the completion of the ride
 
-    bool riderOK
+        bool riderOK
 
 6. boolean indicating that the driver accepts the take this ride
 
-    bool driverOK
+        bool driverOK
 
 7. the cost of the drive in finney
 
-    uint256 rideCost
+        uint256 rideCost
 
 
 # Smart Contract Functions
 
 1. functio for the rider and driver can accept the ride
 
-    function accept()
+        function accept()
    
 2. function to send the payment to the driver once the ride is approved by all parties
 
-    function payBalance()
+        function payBalance()
 
 3. function for the rider to order the ride
 
-    function orderRide()
+        function orderRide()
   
 4. function to cancel the ride
 
-    function cancel()
+        function cancel()
 
 
 # How to use
      
  1. Requirements
      
-     node.js web3 truffle Infura react
+        node.js web3 truffle Infura react
      
  2. Deploy the smart contract
  
