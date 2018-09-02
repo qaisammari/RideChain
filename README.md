@@ -20,6 +20,6 @@ RideChain is a ride order application whereby you can order your rides using Blo
 
 
 # How to use
- Requirements: node.js web3 truffle Infura react
- Deploy the smart contract: go to the SmartContracts directoy and run node deploy.js
- In the Frontend: go to the Fronend directory and run npm start
+     Requirements: node.js web3 truffle Infura react
+     Deploy the smart contract: go to the SmartContracts directoy and run node deploy.js
+     In the Frontend: go to the Fronend directory and run npm start
