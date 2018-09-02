@@ -1,6 +1,8 @@
 # RideChain
 RideChain is a ride order application whereby you can order your rides using Blockchain and pay with Ethers for your rides. RideChain will escrow the payment till the ride is completed 
 
+This project will give you a very good understanding on how Escrow smart contracts work !
+
 # Smart Contract Properties
 
 1. the balance that will be on hold till the ride is completed and approved by the rider and driver
@@ -53,16 +55,16 @@ RideChain is a ride order application whereby you can order your rides using Blo
 
 # How to use
      
- 1. Requirements
+1. Requirements
      
         node.js web3 truffle Infura react
      
  2. Deploy the smart contract
  
- go to the SmartContracts directoy and run the deployment script
+        go to the SmartContracts directoy and run the deployment script
  
     node deploy.js
  
- for the demo UI, go to the Fronend directory and run the server
+        for the demo UI, go to the Fronend directory and run the server
     
     run npm start
